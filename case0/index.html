@@ -6,6 +6,7 @@
 <link rel="stylesheet" media="(max-width: 420px)" href="a.css">
 <link rel="stylesheet" media="(min-width: 421px) and (max-width: 840px)" href="b.css">
 <link rel="stylesheet" media="(min-width: 841px)" href="c.css">
+<script src="control.js"></script>
 
 </head>
 
@@ -21,6 +22,8 @@
 		<div class="grid grid3">Grid_3</div>
 		<div class="grid grid4">Grid_4</div>
 	</div>
+	<label>Choose new color</label>
+	<input type="color" id="myColor" onchange="getColor();"/>
 </section>
 
 <footer>
