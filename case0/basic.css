@@ -43,6 +43,8 @@ div.grid2 {
 
 div.grid3 {
 	background-color: forestgreen;
+	animation-name: ani_grid3;
+	animation-duration: 2s;
 }
 
 div.grid4 {
@@ -67,6 +69,13 @@ div.grid4 {
 	80% {background-color: gold;}
 	90% {background-color: goldenrod;}
 	100% {background-color: darkgoldenrod;}
+}
+
+@keyframes ani_grid3 {
+	0% {transform: rotate(0deg);}
+	40% {transform: rotate(45deg);}
+	80% {transform: rotate(-45deg);}
+	100% {transform: rotate(0deg);}
 }
 
 .fas {
